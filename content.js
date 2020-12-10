@@ -94,6 +94,35 @@ function create_scale_control() {
 	});
 }
 
+function create_rotate_control() {
+	ce('input', {
+		type: 'number',
+		min: -360,
+		max: 360,
+		step: 30,
+		value: data.rotate,
+		title: 'Rotate Clockwise & Opposite',
+	}, elem => {
+		ce('div', {}, elem => {
+			elem.classList.add('ytp-button', 'ytextra1');
+			inject_left_controls(elem);
+		}).appendChild(elem);
+
+		elem.addEventListener('keypress', event => event.stopPropagation());
+		elem.addEventListener('keydown', event => event.stopPropagation());
+		elem.addEventListener('keyup', event => event.stopPropagation());
+		elem.addEventListener('input', throttle(function(event) {
+			event.stopPropagation();
+
+			let value = Number(this.value);
+			if (Number.isNaN(value) || value < Number(this.min) || value > Number(this.max)) value = data.rotate;
+
+			data.rotate = value;
+			update_style();
+		}));
+	});
+}
+
 function create_move_control(position) {
 	ce('input', {
 		type: 'number',
@@ -158,6 +187,7 @@ window.addEventListener("load", () => {
 
 	dump(hash, elem_player(), elem_controls(), elem_left_controls());
 
+	create_rotate_control();
 	create_move_control('left');
 	create_move_control('top');
 	create_scale_control();
