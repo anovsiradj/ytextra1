@@ -1,0 +1,21 @@
+
+# YouTube Extra 1
+
+ekstensi browser google chrome untuk modifikasi 
+video player pada website youtube, dengan menambah
+kontrol yang berfungsi untuk melakukan move,rotate,zoom.
+
+
+#referensi
+
+<https://gist.github.com/anovsiradj/d773a1ba2d9630dcf32ca62e42a6fbfb>
+
+official
+<https://developer.chrome.com/docs/extensions/mv2/getstarted/>
+<https://github.com/GoogleChrome/chrome-extensions-samples>
+<https://developer.chrome.com/docs/extensions/mv2/content_scripts/>
+
+tutorial
+<https://stackoverflow.com/q/55070010>
+<https://medium.com/tech-tajawal/build-a-simple-google-chrome-extension-in-few-minutes-1f13b600e83e>
+

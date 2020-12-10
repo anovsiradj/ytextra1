@@ -1,0 +1,13 @@
+{
+  "name": "YouTube Extra 1",
+  "description": "Move,Rotate,Zoom Video",
+  "version": "0.0.1",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
