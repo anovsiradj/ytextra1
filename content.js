@@ -1,5 +1,4 @@
 
-
 var hash = 'ytextra1_' + (new Date).toISOString().replace(/[^A-Za-z0-9]/g,'');
 var data = {
 	scale: 1,

@@ -1,11 +1,12 @@
 {
   "name": "YouTube Extra 1",
   "description": "Move,Rotate,Zoom Video",
+  "icons": {"32":"icons/favicon_32.png","48":"icons/favicon_48.png","96":"icons/favicon_96.png","144":"icons/favicon_144.png"},
   "version": "0.0.1",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://*.youtube.com/*"],
+      "matches": ["https://youtube.com/*","https://www.youtube.com/*"],
       "js": ["content.js"],
       "run_at": "document_start"
     }
