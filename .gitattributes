@@ -3,6 +3,7 @@
 /.gitattributes	export-ignore
 
 /README.mkdn	export-ignore
+/screenshots/	export-ignore
 
 /icons/README.mkdn	export-ignore
 /icons/download.js	export-ignore
