@@ -1,0 +1,54 @@
+
+
+**copas icons punya youtube lewat devtools**
+
+cari element-element icons
+```js
+document.head.querySelectorAll('[rel~="icon"][sizes]')
+// [... link]
+```
+
+ubah jadi array-object
+```js
+Array
+.from(document.head.querySelectorAll('[rel~="icon"][sizes]'))
+.map(e => ({size: e.sizes[0].split('x')[0], href: e.href}))
+//  [... {size:?,href:?}]
+```
+
+ubah array-object jadi object
+<https://stackoverflow.com/a/44325124>
+```js
+Array
+.from(document.head.querySelectorAll('[rel~="icon"][sizes]'))
+.map(e => ({size: e.sizes[0].split('x')[0], href: e.href}))
+.reduce((o,i) => (o[i.size] = i.href, o), {})
+// {... size:href}
+```
+
+klik-kanan `store as global variable` lalu copas `./youtube_icons.json`
+<https://stackoverflow.com/q/62212958>
+```js
+copy.id = 'copy1'
+copy(temp1)
+```
+
+download icons:
+```sh
+./download.js
+```
+
+copas `./chrome_icons.json` ke `../manifest.json`
+
+
+**bikin icon-foreground**
+
+<https://www.gimp.org/tutorials/Creating_Icons/>
+<https://pillow.readthedocs.io/en/stable/>
+
+official bilang sebaiknya ada ukuran 128x128.
+
+kalo foreground jadi, merge:
+```sh
+./icon_merge.py
+```
