@@ -1,21 +1,26 @@
 
+
 # YouTube Extra 1
 
-<div lang="en-US">
-	chrome extension that modify youtube player,
-	by adding more controls to move,rotate,zoom video.
-</div>
+Allows you to move,rotate,zoom video in YouTube
 
 <div lang="id-ID">
-	ekstensi chrome untuk modifikasi player youtube, dengan menambahkan
-	kontrol yang berfungsi untuk move,rotate,zoom video.
+ini adalah ekstensi google chrome yang menambahkan kontrol lain pada player youtube,
+yang memungkinkan untuk melakukan move,rotate,zoom pada video.
 </div>
+
+<div lang="en-US">
+this is a google chrome extension that adding more controls on youtube player,
+that allows you to move,rotate,zoom the video.
+</div>
+
 
 ### todos
 
-- history state change (currently you need to refresh page if controls not showing).
-- remember values (storage)
-- auto calc left-space-width of portrait video, make sure video is centered.
+- history state change (currently you have to refresh the page if controls not shown).
+- remember values (aka storage) for portrait video
+- auto calc left-space-width of portrait video, make sure video is always centered.
+
 
 ### references
 
@@ -30,6 +35,7 @@ tutorial
 <https://stackoverflow.com/q/18397962>
 <https://stackoverflow.com/a/34100952>
 
+
 ### license
 
-[ISC](./license)
+[ISC](./LICENSE)
