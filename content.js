@@ -10,11 +10,21 @@ var data = {
 var style_contents = [
 	`#ytd-player .html5-video-player .html5-main-video { transform: scale(${data.scale}) rotate(${data.rotate}deg); top: ${data.top}px !important; left: ${data.left}px !important; }`,
 	'#ytd-player .html5-video-player .ytp-chrome-controls .ytp-right-controls .ytextra1.ytp-button {}',
-	'#ytd-player .html5-video-player .ytp-chrome-controls .ytp-right-controls .ytextra1.ytp-button input { width: 42px; position: relative; }',
+	`#ytd-player .html5-video-player .ytp-chrome-controls .ytp-right-controls .ytextra1.ytp-button input {
+		width: 36px;
+		position: relative;
+		color: #fff;
+		background-color: transparent;
+		border: 1px solid #fff;
+	}`,
+	`#ytd-player .html5-video-player .ytp-chrome-controls .ytp-right-controls .ytextra1.ytp-button input:focus {
+		outline: none;
+		box-shadow: none;
+	}`,
 ];
 
-/* https://stackoverflow.com/a/27078401 */
 function throttle(callback, limit = 100) {
+	/* https://stackoverflow.com/a/27078401 */
 	var waiting = false; 
 	return function () {
 		if (! waiting) {
@@ -25,8 +35,8 @@ function throttle(callback, limit = 100) {
 	}
 }
 
-/* https://anovsiradj.github.io/webapp.js */
 function dump() {
+	/* https://anovsiradj.github.io/webapp.js */
 	Array.from(arguments).forEach(a => console.debug(a));
 }
 
@@ -60,7 +70,6 @@ function elem_left_controls() {
 }
 
 function inject_left_controls(elem) {
-	dump(elem_left_controls());
 	elem_left_controls()?.insertBefore(elem, elem_left_controls()?.querySelector('.ytp-subtitles-button'));
 }
 
@@ -174,17 +183,13 @@ function update_style() {
 	});
 }
 
-/* kadang fungsi ini tidak terpanggil */
 window.addEventListener('DOMContentLoaded', event => {
-	dump('ytextra1(window.DOMContentLoaded)');
+	/* kadang fungsi ini tidak terpanggil */
 	create_style();
 });
 
 window.addEventListener("load", () => {
-	dump('ytextra1(window.load)');
 	create_style();
-
-	dump(hash, elem_player(), elem_controls(), elem_left_controls());
 
 	create_rotate_control();
 	create_move_control('left');
