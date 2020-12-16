@@ -5,5 +5,6 @@
 /README.mkdn	export-ignore
 /screenshots/	export-ignore
 
+/icons/make.py	export-ignore
 /icons/README.mkdn	export-ignore
 /icons/icon_foreground.xcf	export-ignore
