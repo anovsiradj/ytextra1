@@ -185,7 +185,8 @@ function update_style() {
 
 window.addEventListener('DOMContentLoaded', event => {
 	/* kadang fungsi ini tidak terpanggil */
-	create_style();
+	/* disable saja dulu */
+	// create_style();
 });
 
 window.addEventListener("load", () => {
