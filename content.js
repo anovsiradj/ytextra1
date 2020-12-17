@@ -1,5 +1,30 @@
 
-var hash = 'ytextra1_' + (new Date).toISOString().replace(/[^A-Za-z0-9]/g,'');
+var debug = true;
+function dump() {
+	if (! debug) return;
+	/* https://anovsiradj.github.io/webapp.js */
+	Array.from(arguments).forEach(a => console.info(a));
+}
+
+chrome.runtime.onMessage.addListener(message => {
+	if ('is_debug' in message) {
+		debug = message.is_debug;
+	}
+
+	if (message?.is_watch_mode) {
+		reset_controls();
+		modify_player();
+		dump(message);
+	}
+});
+
+var defaults = {
+	player_selector: '#ytd-player .html5-video-player',
+	controls_selector: `#ytd-player .html5-video-player .ytp-chrome-controls`,
+	video_selector: '#ytd-player .html5-video-player .html5-main-video',
+};
+
+var hash = `ytextra1_` + (new Date).toISOString().replace(/[^A-Za-z0-9]/g,'');
 var data = {
 	scale: 1,
 	rotate: 0,
@@ -8,16 +33,16 @@ var data = {
 };
 
 var style_contents = [
-	`#ytd-player .html5-video-player .html5-main-video { transform: scale(${data.scale}) rotate(${data.rotate}deg); top: ${data.top}px !important; left: ${data.left}px !important; }`,
-	'#ytd-player .html5-video-player .ytp-chrome-controls .ytp-right-controls .ytextra1.ytp-button {}',
-	`#ytd-player .html5-video-player .ytp-chrome-controls .ytp-right-controls .ytextra1.ytp-button input {
+	`${defaults.video_selector} { transform: scale(${data.scale}) rotate(${data.rotate}deg); top: ${data.top}px !important; left: ${data.left}px !important; }`,
+	`${defaults.controls_selector} .ytp-right-controls .ytextra1.ytp-button {}`,
+	`${defaults.controls_selector} .ytp-right-controls .ytextra1.ytp-button input {
 		width: 36px;
 		position: relative;
 		color: #fff;
 		background-color: transparent;
 		border: 1px solid #fff;
 	}`,
-	`#ytd-player .html5-video-player .ytp-chrome-controls .ytp-right-controls .ytextra1.ytp-button input:focus {
+	`${defaults.controls_selector} .ytp-right-controls .ytextra1.ytp-button input:focus {
 		outline: none;
 		box-shadow: none;
 	}`,
@@ -35,15 +60,9 @@ function throttle(callback, limit = 100) {
 	}
 }
 
-function dump() {
-	/* https://anovsiradj.github.io/webapp.js */
-	Array.from(arguments).forEach(a => console.debug(a));
-}
-
 function ce(tagname, options = {}, callback) {
+	/* document create element */
 	let elem = document.createElement(tagname);
-
-	if (callback) callback(elem);
 
 	for (let o in options) {
 		if (o in elem) {
@@ -53,20 +72,12 @@ function ce(tagname, options = {}, callback) {
 		}
 	}
 
+	if (callback) callback(elem);
 	return elem;
 }
 
-function elem_player() {
-	return document.querySelector('#ytd-player .html5-video-player'); // html5 saja
-}
-function elem_video() {
-	return elem_player()?.querySelector('.html5-main-video');
-}
-function elem_controls() {
-	return elem_player()?.querySelector('.ytp-chrome-controls');
-}
 function elem_left_controls() {
-	return elem_controls()?.querySelector('.ytp-right-controls');
+	return document.querySelector(`${defaults.controls_selector} .ytp-right-controls`);
 }
 
 function inject_left_controls(elem) {
@@ -74,7 +85,16 @@ function inject_left_controls(elem) {
 }
 
 function create_scale_control() {
+	let id = `${hash}_scale`;
+
+	let elem = document.getElementById(id);
+	if (elem) {
+		elem.value = data.scale;
+		return;
+	}
+
 	ce('input', {
+		id: id,
 		type: 'number',
 		min: 0,
 		max: 10,
@@ -103,7 +123,16 @@ function create_scale_control() {
 }
 
 function create_rotate_control() {
+	let id = `${hash}_rotate`;
+
+	let elem = document.getElementById(id);
+	if (elem) {
+		elem.value = data.rotate;
+		return;
+	}
+
 	ce('input', {
+		id: id,
 		type: 'number',
 		min: -360,
 		max: 360,
@@ -132,7 +161,16 @@ function create_rotate_control() {
 }
 
 function create_move_control(position) {
+	let id = `${hash}_move_${position}`;
+
+	let elem = document.getElementById(id);
+	if (elem) {
+		elem.value = data[position];
+		return;
+	}
+
 	ce('input', {
+		id: id,
 		type: 'number',
 		step: 10,
 		value: data[position],
@@ -159,23 +197,23 @@ function create_move_control(position) {
 }
 
 function create_style() {
-	let elem = document.head.querySelector(`#${hash}`);
-	if (elem) return elem; // lewati kalau tersedia
+	let style = document.head.querySelector(`#${hash}`);
+	if (style) return style; // lewati kalau ada
 
-	return ce('style', {id: hash}, elem => {
-		document.head.appendChild(elem);
-		style_contents.forEach(rule => elem.sheet.insertRule(rule));
+	dump('ytextra1 style created');
+	return ce('style', {id: hash}, style => {
+		document.head.appendChild(style);
+		style_contents.forEach(rule => style.sheet.insertRule(rule));
 	});
 }
 
 function update_style() {
-	let elem = document.head.querySelector(`#${hash}`);
-	let selectorText = '#ytd-player .html5-video-player .html5-main-video';
+	let style = document.head.querySelector(`#${hash}`);
 
 	Array
-	.from(elem?.sheet?.cssRules || [])
+	.from(style?.sheet?.cssRules || [])
 	.forEach(rule => {
-		if (rule.selectorText === selectorText) {
+		if (rule.selectorText === defaults.video_selector) {
 			rule.style.transform = `scale(${data.scale}) rotate(${data.rotate}deg)`;
 			rule.style.setProperty('top', `${data.top}px`, 'important');
 			rule.style.setProperty('left', `${data.left}px`, 'important');
@@ -183,17 +221,30 @@ function update_style() {
 	});
 }
 
-window.addEventListener('DOMContentLoaded', event => {
-	/* kadang fungsi ini tidak terpanggil */
-	/* disable saja dulu */
-	// create_style();
-});
+function reset_controls() {
+	for (let i in data) data[i] = 0;
+	data.scale = 1;
 
-window.addEventListener("load", () => {
-	create_style();
+	update_style();
+}
 
+function modify_player() {
 	create_rotate_control();
 	create_move_control('left');
 	create_move_control('top');
 	create_scale_control();
+}
+
+window.addEventListener('DOMContentLoaded', event => {
+	/* kadang event ini tidak terpanggil */
+	dump('[ytextra1] window.DOMContentLoaded');
+
+	create_style();
+}, false);
+
+window.addEventListener("load", event => {
+	dump('[ytextra1] window.load');
+
+	create_style();
+	if (window.location.pathname === '/watch') modify_player();
 },false);

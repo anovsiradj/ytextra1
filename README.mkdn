@@ -17,24 +17,7 @@ that allows you to move,rotate,zoom the video.
 
 ### todos
 
-- history state change (currently you have to refresh the page if controls not shown).
-- remember values (aka storage) for portrait video
-- auto calc left-space-width of portrait video, make sure video is always centered.
-
-
-### references
-
-<https://gist.github.com/anovsiradj/d773a1ba2d9630dcf32ca62e42a6fbfb>
-
-official
-<https://github.com/GoogleChrome/chrome-extensions-samples>
-<https://developer.chrome.com/docs/extensions/mv2/content_scripts/>
-
-tutorial
-<https://stackoverflow.com/a/3938013>
-<https://stackoverflow.com/q/18397962>
-<https://stackoverflow.com/a/34100952>
-
+auto calc left-space-width of portrait video, make sure video is always centered.
 
 ### license
 
