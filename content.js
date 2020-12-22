@@ -6,18 +6,6 @@ function dump() {
 	Array.from(arguments).forEach(a => console.info(a));
 }
 
-chrome.runtime.onMessage.addListener(message => {
-	if ('is_debug' in message) {
-		debug = message.is_debug;
-	}
-
-	if (message?.is_watch_mode) {
-		reset_controls();
-		modify_player();
-		dump(message);
-	}
-});
-
 var defaults = {
 	player_selector: '#ytd-player .html5-video-player',
 	controls_selector: `#ytd-player .html5-video-player .ytp-chrome-controls`,
@@ -35,6 +23,9 @@ var data = {
 var style_contents = [
 	`${defaults.video_selector} { transform: scale(${data.scale}) rotate(${data.rotate}deg); top: ${data.top}px !important; left: ${data.left}px !important; }`,
 	`${defaults.controls_selector} .ytp-right-controls .ytextra1.ytp-button {}`,
+	`${defaults.controls_selector} .ytp-right-controls .ytextra1.ytp-button:last-of-type {
+		margin-right: 12px;
+	}`,
 	`${defaults.controls_selector} .ytp-right-controls .ytextra1.ytp-button input {
 		width: 36px;
 		position: relative;
@@ -80,8 +71,9 @@ function elem_left_controls() {
 	return document.querySelector(`${defaults.controls_selector} .ytp-right-controls`);
 }
 
-function inject_left_controls(elem) {
-	elem_left_controls()?.insertBefore(elem, elem_left_controls()?.querySelector('.ytp-subtitles-button'));
+function inject_left_controls(elem, id) {
+	if (id && document.getElementById(id)) return;
+	elem_left_controls()?.insertBefore(elem, elem_left_controls()?.querySelector('.ytp-button'));
 }
 
 function create_scale_control() {
@@ -104,7 +96,7 @@ function create_scale_control() {
 	}, elem => {
 		ce('div', {}, elem => {
 			elem.classList.add('ytp-button', 'ytextra1');
-			inject_left_controls(elem);
+			inject_left_controls(elem, id);
 		}).appendChild(elem);
 
 		elem.addEventListener('keypress', event => event.stopPropagation());
@@ -142,7 +134,7 @@ function create_rotate_control() {
 	}, elem => {
 		ce('div', {}, elem => {
 			elem.classList.add('ytp-button', 'ytextra1');
-			inject_left_controls(elem);
+			inject_left_controls(elem, id);
 		}).appendChild(elem);
 
 		elem.addEventListener('keypress', event => event.stopPropagation());
@@ -178,7 +170,7 @@ function create_move_control(position) {
 	}, elem => {
 		ce('div', {}, elem => {
 			elem.classList.add('ytp-button', 'ytextra1');
-			inject_left_controls(elem);
+			inject_left_controls(elem, id);
 		}).appendChild(elem);
 
 		elem.addEventListener('keypress', event => event.stopPropagation());
@@ -200,7 +192,7 @@ function create_style() {
 	let style = document.head.querySelector(`#${hash}`);
 	if (style) return style; // lewati kalau ada
 
-	dump('ytextra1 style created');
+	dump('[ytextra1] style created');
 	return ce('style', {id: hash}, style => {
 		document.head.appendChild(style);
 		style_contents.forEach(rule => style.sheet.insertRule(rule));
@@ -224,27 +216,35 @@ function update_style() {
 function reset_controls() {
 	for (let i in data) data[i] = 0;
 	data.scale = 1;
-
 	update_style();
 }
 
 function modify_player() {
-	create_rotate_control();
-	create_move_control('left');
-	create_move_control('top');
 	create_scale_control();
+	create_move_control('top');
+	create_move_control('left');
+	create_rotate_control();
 }
 
-window.addEventListener('DOMContentLoaded', event => {
-	/* kadang event ini tidak terpanggil */
-	dump('[ytextra1] window.DOMContentLoaded');
+chrome.runtime.onMessage.addListener(message => {
+	if ('is_debug' in message) {
+		debug = message.is_debug;
+	}
 
-	create_style();
-}, false);
+	if (message?.is_watch_mode) {
+		create_style();
+		reset_controls();
+		modify_player();
+	}
+});
 
-window.addEventListener("load", event => {
-	dump('[ytextra1] window.load');
-
-	create_style();
-	if (window.location.pathname === '/watch') modify_player();
-},false);
+document.addEventListener('readystatechange', event => {
+	if (event.target.readyState === 'interactive' || event.target.readyState === 'complete') {
+		dump(`[ytextra1] document.readystatechange.${event.target.readyState}`);
+		create_style();
+		if (window.location.pathname === '/watch') modify_player();
+	}
+}, {
+	once: true,
+	passive: true,
+});
