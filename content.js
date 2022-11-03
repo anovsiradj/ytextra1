@@ -1,24 +1,34 @@
 
-var debug = true;
-function dump() {
-	if (! debug) return;
-	/* https://anovsiradj.github.io/webapp.js */
-	Array.from(arguments).forEach(a => console.info(a));
-}
+let debug = false;
 
-var defaults = {
+/* https://anovsiradj.github.io/webapp.js */
+const dump = (...list) => Array.from(list).forEach(item => console.debug(item));
+
+const empty = (...list) => {
+	return Array.from(list).every(item => {
+		if (item === null) return true;
+		if (typeof item == 'undefined') return true;
+		if (typeof item == 'boolean' && item == false) return true;
+		if (typeof item == 'string' && e.trim() == '') return true;
+		return false;
+	});
+};
+
+const defaults = {
 	player_selector: '#ytd-player .html5-video-player',
 	controls_selector: `#ytd-player .html5-video-player .ytp-chrome-controls`,
 	video_selector: '#ytd-player .html5-video-player .html5-main-video',
 };
 
-var hash = `ytextra1_` + (new Date).toISOString().replace(/[^A-Za-z0-9]/g,'');
+var hash = `ytextra1_${Date.now().toString(12)}`;
 var data = {
 	scale: 1,
 	rotate: 0,
 	top: 0,
 	left: 0,
 };
+
+dump('YTEXTRA1', hash, data);
 
 var style_contents = [
 	`${defaults.video_selector} { transform: scale(${data.scale}) rotate(${data.rotate}deg); top: ${data.top}px !important; left: ${data.left}px !important; }`,
@@ -37,13 +47,29 @@ var style_contents = [
 		outline: none;
 		box-shadow: none;
 	}`,
+
+	`${defaults.controls_selector} .ytp-right-controls .ytp-multicam-button.ytp-button {
+		display: none !important;
+	}`,
+	/* HIDE miniplayer */
+	`${defaults.controls_selector} .ytp-right-controls .ytp-subtitles-button.ytp-button {
+		display: none !important;
+	}`,
+	/* HIDE miniplayer */
+	`${defaults.controls_selector} .ytp-right-controls .ytp-miniplayer-button.ytp-button {
+		display: none !important;
+	}`,
+	/* HIDE picture-in-picture */
+	`${defaults.controls_selector} .ytp-right-controls .ytp-pip-button.ytp-button {
+		display: none !important;
+	}`,
 ];
 
 function throttle(callback, limit = 100) {
 	/* https://stackoverflow.com/a/27078401 */
 	var waiting = false; 
 	return function () {
-		if (! waiting) {
+		if (!waiting) {
 			waiting = true;
 			callback.apply(this, arguments);
 			setTimeout(() => (waiting = false), limit); 
@@ -73,7 +99,11 @@ function elem_left_controls() {
 
 function inject_left_controls(elem, id) {
 	if (id && document.getElementById(id)) return;
-	elem_left_controls()?.insertBefore(elem, elem_left_controls()?.querySelector('.ytp-button'));
+
+	let leftElem = elem_left_controls();
+	if (empty(leftElem)) return;
+
+	leftElem.insertBefore(elem, leftElem.firstElementChild);
 }
 
 function create_scale_control() {
@@ -102,7 +132,7 @@ function create_scale_control() {
 		elem.addEventListener('keypress', event => event.stopPropagation());
 		elem.addEventListener('keydown', event => event.stopPropagation());
 		elem.addEventListener('keyup', event => event.stopPropagation());
-		elem.addEventListener('input', throttle(function(event) {
+		elem.addEventListener('input', throttle(function (event) {
 			event.stopPropagation();
 
 			let value = Number(this.value);
@@ -140,7 +170,7 @@ function create_rotate_control() {
 		elem.addEventListener('keypress', event => event.stopPropagation());
 		elem.addEventListener('keydown', event => event.stopPropagation());
 		elem.addEventListener('keyup', event => event.stopPropagation());
-		elem.addEventListener('input', throttle(function(event) {
+		elem.addEventListener('input', throttle(function (event) {
 			event.stopPropagation();
 
 			let value = Number(this.value);
@@ -176,7 +206,7 @@ function create_move_control(position) {
 		elem.addEventListener('keypress', event => event.stopPropagation());
 		elem.addEventListener('keydown', event => event.stopPropagation());
 		elem.addEventListener('keyup', event => event.stopPropagation());
-		elem.addEventListener('input', throttle(function(event) {
+		elem.addEventListener('input', throttle(function (event) {
 			event.stopPropagation();
 
 			let value = Number(this.value);
@@ -192,25 +222,27 @@ function create_style() {
 	let style = document.head.querySelector(`#${hash}`);
 	if (style) return style; // lewati kalau ada
 
-	dump('[ytextra1] style created');
-	return ce('style', {id: hash}, style => {
+	dump('[YTEXTRA1] styleCreated');
+	return ce('style', { id: hash }, style => {
 		document.head.appendChild(style);
 		style_contents.forEach(rule => style.sheet.insertRule(rule));
 	});
 }
 
 function update_style() {
+	dump('[YTEXTRA1] styleUpdated');
+
 	let style = document.head.querySelector(`#${hash}`);
 
 	Array
-	.from(style?.sheet?.cssRules || [])
-	.forEach(rule => {
-		if (rule.selectorText === defaults.video_selector) {
-			rule.style.transform = `scale(${data.scale}) rotate(${data.rotate}deg)`;
-			rule.style.setProperty('top', `${data.top}px`, 'important');
-			rule.style.setProperty('left', `${data.left}px`, 'important');
-		}
-	});
+		.from(style?.sheet?.cssRules || [])
+		.forEach(rule => {
+			if (rule.selectorText === defaults.video_selector) {
+				rule.style.transform = `scale(${data.scale}) rotate(${data.rotate}deg)`;
+				rule.style.setProperty('top', `${data.top}px`, 'important');
+				rule.style.setProperty('left', `${data.left}px`, 'important');
+			}
+		});
 }
 
 function reset_controls() {
@@ -230,8 +262,7 @@ chrome.runtime.onMessage.addListener(message => {
 	if ('is_debug' in message) {
 		debug = message.is_debug;
 	}
-
-	if (message?.is_watch_mode) {
+	if ('is_watch' in message && message.is_watch) {
 		create_style();
 		reset_controls();
 		modify_player();
@@ -239,10 +270,13 @@ chrome.runtime.onMessage.addListener(message => {
 });
 
 document.addEventListener('readystatechange', event => {
-	if (event.target.readyState === 'interactive' || event.target.readyState === 'complete') {
-		dump(`[ytextra1] document.readystatechange.${event.target.readyState}`);
+	if (
+		(event.target.readyState === 'interactive' || event.target.readyState === 'complete') &&
+		window.location.pathname === '/watch'
+	) {
 		create_style();
-		if (window.location.pathname === '/watch') modify_player();
+		reset_controls();
+		modify_player();
 	}
 }, {
 	once: true,
