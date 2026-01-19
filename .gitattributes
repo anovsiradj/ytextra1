@@ -2,9 +2,10 @@
 /.gitignore	export-ignore
 /.gitattributes	export-ignore
 
-/README.mkdn	export-ignore
+/README.md	export-ignore
 /screenshots/	export-ignore
 
 /icons/make.py	export-ignore
-/icons/README.mkdn	export-ignore
+/icons/make.php	export-ignore
+/icons/README.md	export-ignore
 /icons/icon_foreground.xcf	export-ignore

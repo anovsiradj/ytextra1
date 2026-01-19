@@ -1,0 +1,6 @@
+{
+    "name": "anovsiradj/ytextra1",
+    "require-dev": {
+        "imagine/imagine": "^1.5"
+    }
+}

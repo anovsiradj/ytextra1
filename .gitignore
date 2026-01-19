@@ -6,3 +6,6 @@
 
 /icons/icons.json
 /icons/chrome_icons.json
+
+/vendor/
+/node_modules/
