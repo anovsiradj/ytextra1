@@ -21,6 +21,7 @@ that allows you to move,rotate,zoom the video.
 - auto calc left-space-width of portrait video, make sure video is always horizontally centered.
 - client bundle
 - worker bundle
+- firefox
 
 ### license
 
