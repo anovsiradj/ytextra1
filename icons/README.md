@@ -1,4 +1,9 @@
 
+# v2
+
+dibikin pakai AI.
+
+# v1
 
 **bikin icon-foreground**
 
