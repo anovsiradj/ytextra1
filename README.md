@@ -1,5 +1,3 @@
-
-
 # YouTube Extra 1
 
 Allows you to move,rotate,zoom video in YouTube
@@ -14,10 +12,15 @@ this is a google chrome extension that adding more controls on youtube player,
 that allows you to move,rotate,zoom the video.
 </div>
 
+### build
+
+- `npx rollup -c`
 
 ### todos
 
-auto calc left-space-width of portrait video, make sure video is always centered.
+- auto calc left-space-width of portrait video, make sure video is always horizontally centered.
+- client bundle
+- worker bundle
 
 ### license
 
