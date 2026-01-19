@@ -12,9 +12,13 @@ this is a google chrome extension that adding more controls on youtube player,
 that allows you to move,rotate,zoom the video.
 </div>
 
-### build
+### bundle js
 
 - `npx rollup -c`
+
+### bundle zip
+
+- `git archive --format=zip --output=ytextra1.zip`
 
 ### todos
 
@@ -22,6 +26,10 @@ that allows you to move,rotate,zoom the video.
 - client bundle
 - worker bundle
 - firefox
+
+### store
+
+taken down by them, i will pass that, to much requirements.
 
 ### license
 
