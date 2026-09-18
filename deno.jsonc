@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "build": "deno bundle --config deno.jsonc client.ts > dist/client.bundle.js && deno bundle --config deno.jsonc options.ts > dist/options.bundle.js",
+    "build:client": "deno bundle --config deno.jsonc client.ts > dist/client.bundle.js",
+    "build:options": "deno bundle --config deno.jsonc options.ts > dist/options.bundle.js",
+    "watch": "deno run --watch -c deno.jsonc --allow-read --allow-write --allow-run watch.ts",
+    "check": "deno check client.ts options.ts",
+    "fmt": "deno fmt",
+    "lint": "deno lint"
+  },
+  "imports": {
+    "jquery": "npm:jquery@^4.0.0"
+  }
+}

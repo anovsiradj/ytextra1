@@ -1,0 +1,2446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Flu",
+				"Flutter"
+			],
+			[
+				"ac",
+				"actify"
+			],
+			[
+				"Acti",
+				"actify"
+			],
+			[
+				"ROM",
+				"ROMBAK"
+			],
+			[
+				"Boo",
+				"BottomAppBar"
+			],
+			[
+				"Distr",
+				"Distribusi"
+			],
+			[
+				"Sumbe",
+				"Sumber"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"dok",
+				"dokum"
+			],
+			[
+				"upda",
+				"updated_at"
+			],
+			[
+				"route",
+				"routeValid"
+			],
+			[
+				"F",
+				"FGD"
+			],
+			[
+				"wrap",
+				"\"word_wrap\""
+			],
+			[
+				"Carbo",
+				"Carbon"
+			],
+			[
+				"Carb",
+				"Carbon"
+			],
+			[
+				"nore",
+				"noref"
+			],
+			[
+				"attr",
+				"attributesToArray()"
+			],
+			[
+				"pendafa",
+				"pendaftaran"
+			],
+			[
+				"penda",
+				"pendaftaran_id"
+			],
+			[
+				"pendaf",
+				"pendaftaran_id"
+			],
+			[
+				"Pasang",
+				"Pemasangan"
+			],
+			[
+				"wila",
+				"wilayah"
+			],
+			[
+				"con",
+				"controller($controller)"
+			],
+			[
+				"wilaya",
+				"wilayah_id"
+			],
+			[
+				"tangal",
+				"tanggal_kesesuaian_rab"
+			],
+			[
+				"total",
+				"total_hari"
+			],
+			[
+				"calc",
+				"calculateJatuhTempo($totalHari)"
+			],
+			[
+				"provin",
+				"provinsiModel($iden)"
+			],
+			[
+				"semo",
+				"sempoa"
+			],
+			[
+				"tangg",
+				"tanggal_kesesuaian_rab"
+			],
+			[
+				"pengisi",
+				"tanggal_pengisian_rab"
+			],
+			[
+				"kses",
+				"kesesuaian_rab"
+			],
+			[
+				"statuske",
+				"status_kesesuaian_rab"
+			],
+			[
+				"kesesuan",
+				"status_kesesuaian_rab"
+			],
+			[
+				"status",
+				"status_kesesuaian_rab"
+			],
+			[
+				"persetuj",
+				"persetujuan_verifikator"
+			],
+			[
+				"remo",
+				"removeVal($array, $finds, $config)"
+			],
+			[
+				"isDe",
+				"isDev()"
+			],
+			[
+				"Help",
+				"Helper"
+			],
+			[
+				"QuerySearch",
+				"QuerySearch"
+			],
+			[
+				"sma",
+				"smaller"
+			],
+			[
+				"small",
+				"xx-small"
+			],
+			[
+				"biayada",
+				"biayaDasar"
+			],
+			[
+				"biayadasa",
+				"biayaDasar"
+			],
+			[
+				"reset",
+				"resetBiayaDasar($model, $biayaDasar)"
+			],
+			[
+				"biaya",
+				"$biayaDasar"
+			],
+			[
+				"biayas",
+				"biaya_standar"
+			],
+			[
+				"fi",
+				"file($file, $headers)"
+			],
+			[
+				"pre",
+				"prefixAsset($href)"
+			],
+			[
+				"strrepla",
+				"str_replace()"
+			],
+			[
+				"PHP_URL_PA",
+				"PHP_URL_PATH"
+			],
+			[
+				"parseur",
+				"parse_url()"
+			],
+			[
+				"url",
+				"url($path, $parameters, $secure)"
+			],
+			[
+				"is",
+				"isConsumer()"
+			],
+			[
+				"Carbon",
+				"Carbon"
+			],
+			[
+				"Fak",
+				"Faktur"
+			],
+			[
+				"Json",
+				"Json"
+			],
+			[
+				"metho",
+				"payment_method"
+			],
+			[
+				"qer",
+				"query()"
+			],
+			[
+				"daftar",
+				"pendaftaran"
+			],
+			[
+				"intv",
+				"intval()"
+			],
+			[
+				"Infletor",
+				"Inflector"
+			],
+			[
+				"i",
+				"img($src, $alt)"
+			],
+			[
+				"hasf",
+				"hasFile()"
+			],
+			[
+				"pembayar",
+				"pembayaranFaktur($model, $config)"
+			],
+			[
+				"pembaya",
+				"tanggal_pembayaran_rab"
+			],
+			[
+				"per",
+				"persetujuan_verifikator"
+			],
+			[
+				"perse",
+				"persetujuan_verifikator"
+			],
+			[
+				"pers",
+				"persetujuan_verifikator"
+			],
+			[
+				"sin",
+				"sinkron($model, $config)"
+			],
+			[
+				"pere",
+				"perencanaFile"
+			],
+			[
+				"kasu",
+				"kasubag"
+			],
+			[
+				"kaba",
+				"kabagFileModel"
+			],
+			[
+				"pema",
+				"pembayaran_rab"
+			],
+			[
+				"created",
+				"created_by"
+			],
+			[
+				"head",
+				"headJqueryJs"
+			],
+			[
+				"caba",
+				"cabang_id"
+			],
+			[
+				"val",
+				"validate()"
+			],
+			[
+				"jso",
+				"jsonScript($data, $attrs)"
+			],
+			[
+				"uang",
+				"uang($uang, $config)"
+			],
+			[
+				"pelang",
+				"pelanggan"
+			],
+			[
+				"pelangg",
+				"pelanggan"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"ricni",
+				"rincians"
+			],
+			[
+				"biadasa",
+				"biayaDasar"
+			],
+			[
+				"penomo",
+				"penomoranKode($model)"
+			],
+			[
+				"thro",
+				"throw\tThrow Exception"
+			],
+			[
+				"ArrayHe",
+				"ArrayHelper"
+			],
+			[
+				"cop",
+				"copyFile($old, $new)"
+			],
+			[
+				"Image",
+				"Image"
+			],
+			[
+				"Log",
+				"Log"
+			],
+			[
+				"size",
+				"getSize()"
+			],
+			[
+				"rincin",
+				"rincianTotal"
+			],
+			[
+				"rinci",
+				"rincianTotal"
+			],
+			[
+				"pembayara",
+				"status_pembayaran"
+			],
+			[
+				"rab",
+				"rab_id"
+			],
+			[
+				"peno",
+				"penomoranSpko($model)"
+			],
+			[
+				"penmo",
+				"penomoranKode($model)"
+			],
+			[
+				"o",
+				"options($key, $val, $query)"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"refire",
+				"redirect($config, $request)"
+			],
+			[
+				"peng",
+				"penunggakan($model, $fakturModels)"
+			],
+			[
+				"faktur",
+				"fakturModels"
+			],
+			[
+				"th",
+				"throw\tThrow Exception"
+			],
+			[
+				"intval",
+				"intval()"
+			],
+			[
+				"missingtype",
+				"<MissingClosureReturnType"
+			],
+			[
+				"variable",
+				"<UndefinedVariable"
+			],
+			[
+				"err",
+				"errorLevel"
+			],
+			[
+				"missingp",
+				"<MissingPropertyType"
+			],
+			[
+				"type",
+				"<MissingParamType"
+			],
+			[
+				"typ",
+				"useDocblockPropertyTypes"
+			],
+			[
+				"repo",
+				"reportMixedIssues"
+			],
+			[
+				"fa",
+				"$daftarModel"
+			],
+			[
+				"wher",
+				"where($column, $operator, $value, $boolean)"
+			],
+			[
+				"matc",
+				"match($methods, $uri, $action)"
+			],
+			[
+				"Expres",
+				"Expression"
+			],
+			[
+				"query",
+				"queryLikeValue($data)"
+			],
+			[
+				"erro",
+				"errorLevel"
+			],
+			[
+				"undefinedgloba",
+				"UndefinedGlobalVariable"
+			],
+			[
+				"v",
+				"views"
+			],
+			[
+				"unusedva",
+				"UnusedVariable"
+			],
+			[
+				"iss",
+				"issueHandlers"
+			],
+			[
+				"hasKey",
+				"hasAny($array, $keys)"
+			],
+			[
+				"Arahe",
+				"ArrayHelper"
+			],
+			[
+				"filter",
+				"$filterIncludeFields"
+			],
+			[
+				"Maintrait",
+				"app\\controllers\\MainTrait"
+			],
+			[
+				"pasang",
+				"pasang_awal"
+			],
+			[
+				"pasanga",
+				"pasangAwal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "worker.js",
+			"settings":
+			{
+				"buffer_size": 2041,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"contents": "Searching 23 files for \"ytp\"\n\nC:\\projects\\ytextra1\\client.ts:\n   30  \n   31  const VIDEO_SELECTOR = \"#ytd-player .html5-video-player .html5-main-video\";\n   32: const CONTROLS_SELECTOR = \"#ytd-player .html5-video-player .ytp-chrome-controls\";\n   33: const RIGHT_CONTROLS_SELECTOR = `${CONTROLS_SELECTOR} .ytp-right-controls`;\n   34  \n   35  /* ── storage ────────────────────────────────────────────── */\n   ..\n   63    const rules = [\n   64      `${VIDEO_SELECTOR} { transform: scale(${d.scale}) rotate(${d.rotate}deg); top: ${d.top}px !important; left: ${d.left}px !important; }`,\n   65:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1 {}`,\n   66:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1:last-of-type { margin-right: 12px; }`,\n   67:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1 input { width: 36px; position: relative; color: #fff; background-color: transparent; border: 1px solid #fff; }`,\n   68:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1.keep { width: auto; }`,\n   69:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1.keep input { width: 18px; height: 18px; vertical-align: middle; }`,\n   70:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1 input:focus { outline: none; box-shadow: none; }`,\n   71    ];\n   72  \n   73    if (options.hide_ui) {\n   74      rules.push(\n   75:       `${RIGHT_CONTROLS_SELECTOR} .ytp-autonav-toggle.ytp-button { display: none !important; }`,\n   76:       `${RIGHT_CONTROLS_SELECTOR} .ytp-size-button.ytp-button { display: none !important; }`,\n   77:       `${RIGHT_CONTROLS_SELECTOR} .ytp-multicam-button.ytp-button { display: none !important; }`,\n   78:       `${RIGHT_CONTROLS_SELECTOR} .ytp-subtitles-button.ytp-button { display: none !important; }`,\n   79:       `${RIGHT_CONTROLS_SELECTOR} .ytp-miniplayer-button.ytp-button { display: none !important; }`,\n   80:       `${RIGHT_CONTROLS_SELECTOR} .ytp-pip-button.ytp-button { display: none !important; }`\n   81      );\n   82    }\n   ..\n  144    if (!$rightControls.length) return;\n  145  \n  146:   const $container = $(\"<div/>\", { class: \"ytp-button ytextra1 \" + name });\n  147    const $input = $(\"<input/>\", {\n  148      id: id,\n\nC:\\projects\\ytextra1\\dist\\client.bundle.js:\n 4172  var dump = (...list) => Array.from(list).forEach((item) => console.debug(item));\n 4173  var VIDEO_SELECTOR = \"#ytd-player .html5-video-player .html5-main-video\";\n 4174: var CONTROLS_SELECTOR = \"#ytd-player .html5-video-player .ytp-chrome-controls\";\n 4175: var RIGHT_CONTROLS_SELECTOR = `${CONTROLS_SELECTOR} .ytp-right-controls`;\n 4176  function loadData() {\n 4177    try {\n ....\n 4205    const rules = [\n 4206      `${VIDEO_SELECTOR} { transform: scale(${d.scale}) rotate(${d.rotate}deg); top: ${d.top}px !important; left: ${d.left}px !important; }`,\n 4207:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1 {}`,\n 4208:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1:last-of-type { margin-right: 12px; }`,\n 4209:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1 input { width: 36px; position: relative; color: #fff; background-color: transparent; border: 1px solid #fff; }`,\n 4210:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1.keep { width: auto; }`,\n 4211:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1.keep input { width: 18px; height: 18px; vertical-align: middle; }`,\n 4212:     `${RIGHT_CONTROLS_SELECTOR} .ytp-button.ytextra1 input:focus { outline: none; box-shadow: none; }`\n 4213    ];\n 4214    if (options.hide_ui) {\n 4215:     rules.push(`${RIGHT_CONTROLS_SELECTOR} .ytp-autonav-toggle.ytp-button { display: none !important; }`, `${RIGHT_CONTROLS_SELECTOR} .ytp-size-button.ytp-button { display: none !important; }`, `${RIGHT_CONTROLS_SELECTOR} .ytp-multicam-button.ytp-button { display: none !important; }`, `${RIGHT_CONTROLS_SELECTOR} .ytp-subtitles-button.ytp-button { display: none !important; }`, `${RIGHT_CONTROLS_SELECTOR} .ytp-miniplayer-button.ytp-button { display: none !important; }`, `${RIGHT_CONTROLS_SELECTOR} .ytp-pip-button.ytp-button { display: none !important; }`);\n 4216    }\n 4217    return rules;\n ....\n 4265    if (!$rightControls.length) return;\n 4266    const $container = jquery_node_module_wrapper_slim_default(\"<div/>\", {\n 4267:     class: \"ytp-button ytextra1 \" + name\n 4268    });\n 4269    const $input = jquery_node_module_wrapper_slim_default(\"<input/>\", {\n\n42 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 4371,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "client.ts",
+			"redo_stack":
+			[
+				[
+					23,
+					1,
+					"paste",
+					null,
+					"AQAAAAEKAAAAAAAAAQoAAAAAAAAVAAAAeXRwLWZ1bGxzY3JlZW4tYnV0dG9u",
+					"AQAAAAAAAAABAAAAFgoAAAAAAAAWCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAAAKAAAAAAAAAAoAAAAAAAACAAAAJyc",
+					"AQAAAAAAAAABAAAAAQoAAAAAAAABCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAPsJAAAAAAAA+wkAAAAAAAAFAAAACiAgICA",
+					"AQAAAAAAAAABAAAAAAoAAAAAAAAACgAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 8559,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "config.json",
+			"settings":
+			{
+				"buffer_size": 52,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "ret"
+					},
+					"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":729,\"session_name\":\"LSP-typescript\"}",
+						"format": "command",
+						"keep_prefix": true,
+						"must_insert": false,
+						"query_change_id":
+						[
+							0,
+							4,
+							1
+						],
+						"trigger": "return"
+					},
+					"BAAAAAIAAAAAAAAAAgAAAAAAAAABAAAAdAEAAAAAAAAAAQAAAAAAAAABAAAAZQAAAAAAAAAAAAAAAAAAAAABAAAAcgAAAAAAAAAABgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAAcAAAAAAAAACQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABwAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAcmV0dXJuIHsKCQp9",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAAMAAAAAAAAABQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "remove"
+					},
+					"BgAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "hide"
+					},
+					"BAAAAAQAAAAAAAAABQAAAAAAAAAGAAAAcmVtb3ZlBQAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "YtA"
+					},
+					"AwAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAoAAAAAAAAACgAAAAAAAAABAAAAQQ",
+					"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "Contro"
+					},
+					"BgAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAABAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					8,
+					"left_delete",
+					null,
+					"CAAAAA8AAAAAAAAADwAAAAAAAAABAAAAbw4AAAAAAAAADgAAAAAAAAABAAAAcg0AAAAAAAAADQAAAAAAAAABAAAAdAwAAAAAAAAADAAAAAAAAAABAAAAbgsAAAAAAAAACwAAAAAAAAABAAAAbwoAAAAAAAAACgAAAAAAAAABAAAAQwkAAAAAAAAACQAAAAAAAAABAAAAdAgAAAAAAAAACAAAAAAAAAABAAAAWQ",
+					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "Buttons"
+					},
+					"BwAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "yt"
+					},
+					"AgAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "H"
+					},
+					"AQAAAAYAAAAAAAAABwAAAAAAAAABAAAAaA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAABIAAAAAAAAAEwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"left_delete",
+					null,
+					"AQAAABIAAAAAAAAAEgAAAAAAAAABAAAAOg",
+					"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"left_delete",
+					null,
+					"AQAAABAAAAAAAAAAEAAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "Names"
+					},
+					"BQAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAVAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					5,
+					"left_delete",
+					null,
+					"BQAAABQAAAAAAAAAFAAAAAAAAAABAAAAcxMAAAAAAAAAEwAAAAAAAAABAAAAZRIAAAAAAAAAEgAAAAAAAAABAAAAbREAAAAAAAAAEQAAAAAAAAABAAAAYRAAAAAAAAAAEAAAAAAAAAABAAAATg",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "Keys"
+					},
+					"BAAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					14,
+					"left_delete",
+					null,
+					"DgAAABMAAAAAAAAAEwAAAAAAAAABAAAAcxIAAAAAAAAAEgAAAAAAAAABAAAAeREAAAAAAAAAEQAAAAAAAAABAAAAZRAAAAAAAAAAEAAAAAAAAAABAAAASw8AAAAAAAAADwAAAAAAAAABAAAAbg4AAAAAAAAADgAAAAAAAAABAAAAbw0AAAAAAAAADQAAAAAAAAABAAAAdAwAAAAAAAAADAAAAAAAAAABAAAAdAsAAAAAAAAACwAAAAAAAAABAAAAdQoAAAAAAAAACgAAAAAAAAABAAAAQgkAAAAAAAAACQAAAAAAAAABAAAAZQgAAAAAAAAACAAAAAAAAAABAAAAZAcAAAAAAAAABwAAAAAAAAABAAAAaQYAAAAAAAAABgAAAAAAAAABAAAASA",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "ButtonKeys"
+					},
+					"CgAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					4,
+					"left_delete",
+					null,
+					"BAAAAA8AAAAAAAAADwAAAAAAAAABAAAAcw4AAAAAAAAADgAAAAAAAAABAAAAeQ0AAAAAAAAADQAAAAAAAAABAAAAZQwAAAAAAAAADAAAAAAAAAABAAAASw",
+					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "Names"
+					},
+					"BQAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAABIAAAAAAAAAEwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAABMAAAAAAAAAFAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAABQAAAAAAAAAFgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAABYAAAAAAAAAFwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFgAAAAAAAAAWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"left_delete",
+					null,
+					"AQAAABYAAAAAAAAAFgAAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BAAAABUAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAZAAAAAAAAAAAAAAAWAAAAAAAAABYAAAAAAAAAAQAAAAkWAAAAAAAAABgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAABgAAAAAAAAAGgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"paste",
+					null,
+					"AQAAABkAAAAAAAAALgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lspres",
+				"LSP: Restart Server"
+			],
+			[
+				"fodlal",
+				"Code Folding: Fold All"
+			],
+			[
+				"ssmd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrapt",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"fildal",
+				"Code Folding: Fold All"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"folda",
+				"Code Folding: Fold All"
+			],
+			[
+				"foldal",
+				"Code Folding: Fold All"
+			],
+			[
+				"ofldal",
+				"Code Folding: Fold All"
+			],
+			[
+				"fodal",
+				"Code Folding: Fold All"
+			],
+			[
+				"foldla",
+				"Code Folding: Fold All"
+			],
+			[
+				"ofdal",
+				"Code Folding: Fold All"
+			],
+			[
+				"fodall",
+				"Code Folding: Fold All"
+			],
+			[
+				"ssql",
+				"Set Syntax: Cassandra Query Language"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"con tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"fioldal",
+				"Code Folding: Fold All"
+			],
+			[
+				"foldall",
+				"Code Folding: Fold All"
+			],
+			[
+				"lspre",
+				"LSP: Goto Symbol in Project"
+			],
+			[
+				"foildal",
+				"Code Folding: Fold All"
+			],
+			[
+				"forma",
+				"LSP: Format File"
+			],
+			[
+				"foldlal",
+				"Code Folding: Fold All"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"lsp",
+				"LSP: Restart Server"
+			],
+			[
+				"lspdire",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"foldala",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"fodla",
+				"Code Folding: Fold All"
+			],
+			[
+				"packagc",
+				"Package Control: Install Package"
+			],
+			[
+				"lsprest",
+				"LSP: Restart Server"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"md",
+				"Emmet: Decrement Number by 1"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ssbat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"ssbash",
+				"Set Syntax: Bash"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/projects/ytextra1/CHANGE.md",
+		"/C/projects/ytextra1/client.ts",
+		"/C/projects/ytextra1/options.css",
+		"/C/projects/ytextra1/worker.js",
+		"/C/projects/ytextra1/deno.jsonc",
+		"/C/projects/ytextra1/options.ts",
+		"/C/projects/ytextra1/deno.lock",
+		"/C/projects/ytextra1/README.md",
+		"/C/projects/ytextra1/client.js",
+		"/C/projects/ytextra1/options.html",
+		"/C/projects/ytextra1/package.json",
+		"/C/projects/ytextra1/AUDIT_REPORT.md",
+		"/C/topkit/git/git_repo_lite.py",
+		"/C/projects/anoop/nuxt-cebot/app/pages/topik.vue",
+		"/C/projects/anoop/nuxt-cebot/app/pages/index.vue",
+		"/C/works/telukbintunikab/telukbintunikab_satupeta/resources/frontend/peta-data.js",
+		"/C/works/telukbintunikab/telukbintunikab_satupeta/resources/assets/LeafletBetterWms.js",
+		"/C/works/telukbintunikab/telukbintunikab_satupeta/frontend/views/peta-data/index.php",
+		"/C/projects/anoop/nuxt-cebot/app/app.vue",
+		"/C/works/telukbintunikab/telukbintunikab_satupeta/.gitignore",
+		"/C/works/telukbintunikab/telukbintunikab_satupeta/vacuum-cleaner.sh",
+		"/C/works/telukbintunikab/telukbintunikab_satupeta/composer.json",
+		"/C/projects/jeeoop/rekrutmen/20260831.md",
+		"/C/projects/jeeoop/prompts/20260813-riung.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/brain.md",
+		"/C/works/telukbintunikab_satudata/vendor/bower-asset/punycode/tests/data.js",
+		"/C/ProgramData/Microsoft/Network/Downloader/edb00053.log",
+		"/C/Users/anovs/.config/opencode/opencode.jsonc",
+		"/C/projects/anoop/anovsiradj.github.io/ai/brain-agent.md",
+		"/C/projects/jeeoop/prompts/20260814-mimika.md",
+		"/C/projects/jeeoop/prompts/20260814-bintuni.md",
+		"/C/projects/jeeoop/players/bowo/20260827.md",
+		"/C/projects/jeeoop/rekrutmen/20260827.md",
+		"/C/projects/jeeoop/byme.md",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/agent-brain.md",
+		"/C/projects/jeeoop/scripts/poc/001.php",
+		"/C/projects/jeeoop/sql/user.md",
+		"/C/projects/jeeoop/projects/intanbanjar_inventori/structures.md",
+		"/C/projects/jeeoop/notes/20231004-magento2ce.md",
+		"/C/projects/jeeoop/projects/2024/jolie_warehouse/structures.md",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/tttaiga1.md",
+		"/C/projects/jeeoop/notes/20260820.md",
+		"/C/projects/anoop/anovsiradj.github.io/devlog/adminer/tmp1.php",
+		"/C/projects/jeeoop/notes/20260814-COO.md",
+		"/C/projects/jeeoop/rekrutmen/20260818.md",
+		"/C/projects/jeeoop/index.php",
+		"/C/projects/anoop/anovsiradj.github.io/ai/agent-app-php.md",
+		"/C/Users/anovs/Documents/tmp/BRAINS.md",
+		"/C/Users/anovs/Documents/tmp/AGENTS.md",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/flutter_skit.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/agent-app-flutter.md",
+		"/C/works/riung/riung_medsos_web/app/Http/Controllers/Api/ChangeTarget/Home/HomeController.php",
+		"/C/works/tmp/mobapp_jdih_diy/lib/config/app_text_style.dart",
+		"/C/works/tmp/mobapp_jdih_diy/lib/config/app_color.dart",
+		"/C/works/tmp/mobapp_jdih_diy/lib/main.dart",
+		"/C/works/tmp/mobapp_jdih_diy/lib/globals.dart",
+		"/C/projects/jeeoop/rekrutmen/wawancara.md",
+		"/C/works/flutter_skit/index.php",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/rekrutmen.md",
+		"/C/works/flutter_skit/analysis_options.yaml",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/php-skit.md",
+		"/C/projects/jeeoop/projects/internals/20241223.md",
+		"/C/projects/jeeoop/projects/jeemce2025_matcom1/index.md",
+		"/C/projects/jeeoop/rekrutmen/20260812-hendri.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/audit.md",
+		"/C/Users/anovs/AppData/Local/Temp/9b100bf6-5634-4627-b060-50655da03b21_anime_vacation_runner_asset_package.zip.b21/README.md",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/app2026_game1.md",
+		"/C/projects/jeeoop/prompts/20260731-portal.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/snippet.md",
+		"/C/Users/anovs/.config/kilo/kilo.jsonc",
+		"/C/projects/jeeoop/projects/2025/tmp/20250721-praprod.md",
+		"/C/projects/jeeoop/projects/2024/riung/20241107.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/free-code.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/save-agent-skill.md",
+		"/C/projects/jeeoop/jeeoop.sublime-project",
+		"/C/projects/jeeoop/notes/20260807-weekly.md",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/skills-godot.md",
+		"/C/projects/jeeoop/notes/20260602-weekly.md",
+		"/C/projects/jeeoop/prompts/20260728-portal.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/brain-json2md.md",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/jsmono-vue.md",
+		"/C/projects/jeeoop/prompts/20260803-rental.md",
+		"/C/Users/anovs/.config/opencode/node_modules/@opencode-ai/sdk/package.json",
+		"/C/Users/anovs/.config/opencode/node_modules/@opencode-ai/plugin/package.json",
+		"/C/projects/anoop/anovsiradj.github.io/ai/brain-mdsplit.md",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/vue-1elfinder.md",
+		"/C/projects/jeeoop/prompts/20260623-rental.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/agent-app.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/BRAINS.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/agent-brain.md",
+		"/C/projects/jeeoop/rekrutmen/20260805-rizal.md",
+		"/C/projects/intanbanjar/intanbanjar_samba/bootstrap/app.php",
+		"/C/projects/intanbanjar/intanbanjar_samba/routes/api.php",
+		"/C/projects/anoop/anovsiradj.github.io/prompts/fastreport.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/agent-app-laravel.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/agent-win.md",
+		"/C/works/rental/rental_mob/.agents/skills/rombak/references/migrasi-dan-validasi.md",
+		"/C/works/rental/rental_mob/README.md",
+		"/C/Users/anovs/Documents/tmp/pwsh-skill.json",
+		"/C/Users/anovs/Documents/myai-prompts.md",
+		"/C/projects/jeeoop/prompts/20260724-sigap.md",
+		"/C/projects/jeeoop/prompts/20260723-portal.md",
+		"/C/projects/jeeoop/prompts/20260724-rental.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/model.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/agent-context.md",
+		"/C/Users/anovs/Downloads/jmc_simpeg.sql",
+		"/C/projects/jeeoop/prompts/20260722-portal.md",
+		"/C/projects/jeeoop/prompts/20260717-rental-codex.md",
+		"/C/Users/anovs/Downloads/Telegram Desktop/dump_backup_notification_17_06_2026_pdam_website_202607221609.sql",
+		"/C/projects/jeeoop/prompts/20260714-rental.md",
+		"/C/projects/jeeoop/prompts/20260716-portal.md",
+		"/C/projects/jeeoop/prompts/20260717-rental-anoop.md",
+		"/C/projects/jeeoop/prompts/20260707-rental.md",
+		"/C/projects/jeeoop/prompts/20260604-werhos-refer.md",
+		"/C/works/aiven_debug1_php/konek.php",
+		"/C/projects/jeeoop/prompts/20260507-werhos-flow-flaw.md",
+		"/C/projects/jeeoop/prompts/20260720-portal.md",
+		"/C/projects/anoop/anovsiradj.github.io/devlog/storage-cleanup.md",
+		"/c/works/rental/rental_mob/analysis_options.yaml",
+		"/C/Users/anovs/AppData/Local/uv/cache/.gitignore",
+		"/C/Users/anovs/AppData/Local/uv/uv-receipt.json",
+		"/C/Users/anovs/AppData/Local/uv/cache/.lock",
+		"/C/projects/jeeoop/prompts/20260717.md",
+		"/C/Users/anovs/AppData/Local/Temp/3afc4bc0-f71c-4d09-8baf-953f02ad8278_database.zip.278/structures.md",
+		"/C/projects/jeeoop/prompts/20260705-rental.md",
+		"/C/projects/jeeoop/prompts/20260624-rental-mob-api.md",
+		"/C/projects/anoop/anovsiradj.github.io/ai/prompt-snippet.md",
+		"/C/Users/anovs/Documents/sigap/forge.sql"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ytp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "worker.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".\"'/@<",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-typescript"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion.is_visible": false,
+							"lsp_active": true,
+							"lsp_uri": "file:///C:/projects/ytextra1/worker.js",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4371,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										220,
+										223
+									],
+									[
+										304,
+										307
+									],
+									[
+										622,
+										625
+									],
+									[
+										687,
+										690
+									],
+									[
+										786,
+										789
+									],
+									[
+										959,
+										962
+									],
+									[
+										1043,
+										1046
+									],
+									[
+										1171,
+										1174
+									],
+									[
+										1359,
+										1362
+									],
+									[
+										1378,
+										1381
+									],
+									[
+										1463,
+										1466
+									],
+									[
+										1479,
+										1482
+									],
+									[
+										1564,
+										1567
+									],
+									[
+										1584,
+										1587
+									],
+									[
+										1669,
+										1672
+									],
+									[
+										1690,
+										1693
+									],
+									[
+										1775,
+										1778
+									],
+									[
+										1797,
+										1800
+									],
+									[
+										1882,
+										1885
+									],
+									[
+										1897,
+										1900
+									],
+									[
+										2073,
+										2076
+									],
+									[
+										2444,
+										2447
+									],
+									[
+										2526,
+										2529
+									],
+									[
+										2809,
+										2812
+									],
+									[
+										2874,
+										2877
+									],
+									[
+										2973,
+										2976
+									],
+									[
+										3146,
+										3149
+									],
+									[
+										3230,
+										3233
+									],
+									[
+										3358,
+										3361
+									],
+									[
+										3523,
+										3526
+									],
+									[
+										3542,
+										3545
+									],
+									[
+										3614,
+										3617
+									],
+									[
+										3630,
+										3633
+									],
+									[
+										3702,
+										3705
+									],
+									[
+										3722,
+										3725
+									],
+									[
+										3794,
+										3797
+									],
+									[
+										3815,
+										3818
+									],
+									[
+										3887,
+										3890
+									],
+									[
+										3909,
+										3912
+									],
+									[
+										3981,
+										3984
+									],
+									[
+										3996,
+										3999
+									],
+									[
+										4224,
+										4227
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion.is_visible": false,
+							"detect_indentation": false,
+							"line_numbers": false,
+							"lsp_uri": "buffer:738",
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".\"'/@<",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-typescript"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion.is_visible": false,
+							"lsp_active": true,
+							"lsp_uri": "file:///C:/projects/ytextra1/client.ts",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config.json",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".\"'/@<",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-typescript"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion._is_saving": false,
+							"copilot.completion.is_visible": false,
+							"lsp_active": true,
+							"lsp_uri": "file:///C:/projects/ytextra1/config.json",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "ytextra1.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				"AUDIT_REPORT.md",
+				"AUDIT_REPORT.md"
+			],
+			[
+				"frontend/peta-data.js",
+				"resources\\frontend\\peta-data.js"
+			],
+			[
+				"petadatindex",
+				"frontend\\views\\peta-data\\index.php"
+			],
+			[
+				"brainage",
+				"anovsiradj.github.io\\ai\\brain-agent.md"
+			],
+			[
+				"brain",
+				"anovsiradj.github.io\\ai\\brain.md"
+			],
+			[
+				"prompt riung",
+				"jeeoop\\prompts\\20260813-riung.md"
+			],
+			[
+				"brainagen",
+				"anovsiradj.github.io\\ai\\brain-agent.md"
+			],
+			[
+				"mimika",
+				"jeeoop\\prompts\\20260814-mimika.md"
+			],
+			[
+				"brainagent",
+				"anovsiradj.github.io\\ai\\brain-agent.md"
+			],
+			[
+				"promptbtain",
+				"anovsiradj.github.io\\prompts\\agent-brain.md"
+			],
+			[
+				"byme",
+				"jeeoop\\byme.md"
+			],
+			[
+				"sqluser",
+				"jeeoop\\sql\\user.md"
+			],
+			[
+				"strumd",
+				"jeeoop\\projects\\intanbanjar_inventori\\structures.md"
+			],
+			[
+				"structures.md",
+				"jeeoop\\projects\\intanbanjar_inventori\\structures.md"
+			],
+			[
+				"tt",
+				"anovsiradj.github.io\\prompts\\tttaiga1.md"
+			],
+			[
+				"promptriung",
+				"jeeoop\\prompts\\20260813-riung.md"
+			],
+			[
+				"tttaiga",
+				"anovsiradj.github.io\\prompts\\tttaiga1.md"
+			],
+			[
+				"bintun",
+				"jeeoop\\prompts\\20260814-bintuni.md"
+			],
+			[
+				"coo",
+				"jeeoop\\notes\\20260814-COO.md"
+			],
+			[
+				"index",
+				"jeeoop\\index.php"
+			],
+			[
+				"agentphp",
+				"anovsiradj.github.io\\ai\\agent-app-php.md"
+			],
+			[
+				"brianagn",
+				"anovsiradj.github.io\\ai\\brain-agent.md"
+			],
+			[
+				"brainagne",
+				"anovsiradj.github.io\\ai\\brain-agent.md"
+			],
+			[
+				"promptbtai",
+				"anovsiradj.github.io\\prompts\\agent-brain.md"
+			],
+			[
+				"agentbrain",
+				"anovsiradj.github.io\\prompts\\agent-brain.md"
+			],
+			[
+				"flutter",
+				"anovsiradj.github.io\\ai\\agent-app-flutter.md"
+			],
+			[
+				"rabinage",
+				"anovsiradj.github.io\\ai\\brain-agent.md"
+			],
+			[
+				"skit",
+				"anovsiradj.github.io\\prompts\\php-skit.md"
+			],
+			[
+				"rekt",
+				"anovsiradj.github.io\\prompts\\rekrutmen.md"
+			],
+			[
+				"agentflutter",
+				"anovsiradj.github.io\\ai\\agent-app-flutter.md"
+			],
+			[
+				"ttta",
+				"anovsiradj.github.io\\prompts\\tttaiga1.md"
+			],
+			[
+				"audit",
+				"anovsiradj.github.io\\ai\\audit.md"
+			],
+			[
+				"braina",
+				"anovsiradj.github.io\\ai\\brain-agent.md"
+			],
+			[
+				"sqluse",
+				"jeeoop\\sql\\user.md"
+			],
+			[
+				"snippe",
+				"anovsiradj.github.io\\ai\\snippet.md"
+			],
+			[
+				"game",
+				"anovsiradj.github.io\\prompts\\app2026_game1.md"
+			],
+			[
+				"riung",
+				"jeeoop\\projects\\2024\\riung\\20241107.md"
+			],
+			[
+				"free",
+				"anovsiradj.github.io\\ai\\free-code.md"
+			],
+			[
+				"agentbrai",
+				"anovsiradj.github.io\\prompts\\agent-brain.md"
+			],
+			[
+				"subl",
+				"jeeoop\\jeeoop.sublime-project"
+			],
+			[
+				"agentskill",
+				"anovsiradj.github.io\\ai\\save-agent-skill.md"
+			],
+			[
+				"godot",
+				"anovsiradj.github.io\\prompts\\skills-godot.md"
+			],
+			[
+				"week",
+				"jeeoop\\notes\\20260602-weekly.md"
+			],
+			[
+				"snipp",
+				"anovsiradj.github.io\\ai\\snippet.md"
+			],
+			[
+				"brainmd",
+				"anovsiradj.github.io\\ai\\brain.md"
+			],
+			[
+				"vude",
+				"anovsiradj.github.io\\prompts\\vue-1elfinder.md"
+			],
+			[
+				"freeco",
+				"anovsiradj.github.io\\ai\\free-code.md"
+			],
+			[
+				"sni",
+				"anovsiradj.github.io\\ai\\snippet.md"
+			],
+			[
+				"freecode",
+				"anovsiradj.github.io\\ai\\free-code.md"
+			],
+			[
+				"fastrepo",
+				"anovsiradj.github.io\\prompts\\fastreport.md"
+			],
+			[
+				".env",
+				"anovsiradj.github.io\\ai\\agent-app-laravel.md"
+			],
+			[
+				"promptportal",
+				"jeeoop\\prompts\\20260728-portal.md"
+			],
+			[
+				"brainms",
+				"anovsiradj.github.io\\ai\\BRAINS.md"
+			],
+			[
+				"aimodel",
+				"anovsiradj.github.io\\ai\\model.md"
+			],
+			[
+				"aiagent",
+				"anovsiradj.github.io\\ai\\agent-app.md"
+			],
+			[
+				"brains.md",
+				"anovsiradj.github.io\\ai\\BRAINS.md"
+			],
+			[
+				"snip",
+				"anovsiradj.github.io\\ai\\snippet.md"
+			],
+			[
+				"agentcon",
+				"anovsiradj.github.io\\ai\\agent-context.md"
+			],
+			[
+				"aud",
+				"anovsiradj.github.io\\ai\\audit.md"
+			],
+			[
+				"agentco",
+				"anovsiradj.github.io\\ai\\agent-context.md"
+			],
+			[
+				"agent",
+				"anovsiradj.github.io\\ai\\agent-context.md"
+			],
+			[
+				"agneto",
+				"anovsiradj.github.io\\ai\\agent-context.md"
+			],
+			[
+				"agentc",
+				"anovsiradj.github.io\\ai\\agent-context.md"
+			],
+			[
+				"contex",
+				"anovsiradj.github.io\\ai\\agent-context.md"
+			],
+			[
+				"audi",
+				"anovsiradj.github.io\\ai\\audit.md"
+			],
+			[
+				"conte",
+				"anovsiradj.github.io\\ai\\agent-context.md"
+			],
+			[
+				"krede",
+				"jeeoop\\projects\\jogjaprov_pamor\\kreden.md"
+			],
+			[
+				"akses",
+				"jeeoop\\akses.md"
+			],
+			[
+				"prd",
+				"anovsiradj.github.io\\prompts\\headhunt1-prd.md"
+			],
+			[
+				"samba",
+				"prompts\\20260605-samba.md"
+			],
+			[
+				"prompts",
+				"prompts\\20260617.md"
+			],
+			[
+				"rental",
+				"projects\\rental\\20251020.md"
+			],
+			[
+				"ssmd",
+				"ssh\\ssh.md"
+			],
+			[
+				"20260515",
+				"projects\\2024\\jolie_warehouse\\20260515-weekly.md"
+			],
+			[
+				"kediri",
+				"projects\\kedirikota\\kedirikota_satupeta\\20251107.md"
+			],
+			[
+				"wareho",
+				"projects\\2024\\jolie_warehouse\\20250704.md"
+			],
+			[
+				"fikkie",
+				"players\\fikkie\\pustaka.md"
+			],
+			[
+				"prompwerhos",
+				"prompts\\20260604-werhos-refer.md"
+			],
+			[
+				"strusql",
+				"projects\\2024\\jolie_warehouse\\structures.sql"
+			],
+			[
+				"gungeo",
+				"notes\\20260604-gunawan-geojson.md"
+			],
+			[
+				"git",
+				"git.md"
+			],
+			[
+				"jolieware",
+				"projects\\2024\\jolie_warehouse\\apk\\README.md"
+			],
+			[
+				"rekrutmen",
+				"rekrutmen\\penilaian.md"
+			],
+			[
+				"forma",
+				"tools\\formalize.html"
+			],
+			[
+				"ffform",
+				"ffform\\index.html"
+			],
+			[
+				"readmeindex",
+				"readme5\\index.html"
+			],
+			[
+				"readme5",
+				"readme5\\readme5.js"
+			],
+			[
+				"resume",
+				"resume.html"
+			],
+			[
+				"header",
+				"resume\\my-header.vue"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"json",
+				"devlog\\lib\\json-api-sql.md"
+			],
+			[
+				"resume/index.js",
+				"resume\\index.js"
+			],
+			[
+				"kimi",
+				"experiment\\sql-dql-gui\\kimi\\v1.html"
+			],
+			[
+				"sql",
+				"docs\\sql_like_matrix.html"
+			],
+			[
+				"nav",
+				"html\\navix.html"
+			],
+			[
+				"inve",
+				"outfits\\outfit_inveintshirts.com.md"
+			],
+			[
+				"photoe",
+				"vendor_photoeditorai_prompt.txt"
+			],
+			[
+				"vendor",
+				"vendors.md"
+			],
+			[
+				"zim",
+				"txt2img\\zimage.run.md"
+			],
+			[
+				"img2",
+				"vendors\\img2txt.md"
+			],
+			[
+				"perchan",
+				"vendors\\perchance.org.md"
+			],
+			[
+				"vendorfre",
+				"vendors_free.md"
+			],
+			[
+				"vendorf",
+				"vendors_free.md"
+			],
+			[
+				"percga",
+				"vendors\\perchance.org.md"
+			],
+			[
+				"pencg",
+				"vendors\\perchance.org.md"
+			],
+			[
+				"z",
+				"txt2img\\zimage.run.md"
+			],
+			[
+				"createimg",
+				"vendors\\createimg.com.md"
+			],
+			[
+				"akool",
+				"vendors\\akool.com.md"
+			],
+			[
+				"rap",
+				"vendors\\raphael.app.md"
+			],
+			[
+				"aifree",
+				"txt2img\\aifreebox.com.md"
+			],
+			[
+				"rapha",
+				"vendors\\raphael.app.md"
+			],
+			[
+				"vendors",
+				"vendors.md"
+			],
+			[
+				"13",
+				"txt2img\\13.md"
+			],
+			[
+				"dream",
+				"vendor_dreamina.txt"
+			],
+			[
+				"grok",
+				"vendor_grok_photo.txt"
+			],
+			[
+				"vends",
+				"vendors.md"
+			],
+			[
+				"a2",
+				"vendor_a2e_video.txt"
+			],
+			[
+				"photoed",
+				"vendor_photoeditorai_prompt.txt"
+			],
+			[
+				"perc",
+				"vendors\\perchance.org.md"
+			],
+			[
+				"dreamina",
+				"vendor_dreamina.txt"
+			],
+			[
+				"a2e",
+				"vendor_a2e_video.txt"
+			],
+			[
+				"lovart",
+				"vendor_lovart.md"
+			],
+			[
+				"vendorfree",
+				"vendors_free.md"
+			],
+			[
+				"lovea",
+				"vendor_lovart_video.txt"
+			],
+			[
+				"joypix",
+				"vendors\\joypix.ai.md"
+			],
+			[
+				"undre",
+				"undress.md"
+			],
+			[
+				"nonfre",
+				"vendors_nonfree.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 499.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mimi",
+				"C:\\works\\mimikakab_eplanning\\mimikakab_eplanning.sublime-project"
+			],
+			[
+				"anov",
+				"C:\\projects\\anoop\\anovsiradj.github.io\\anovsiradj.github.io.sublime-project"
+			],
+			[
+				"ano",
+				"C:\\projects\\anoop\\anovsiradj.github.io\\anovsiradj.github.io.sublime-project"
+			],
+			[
+				"anoo",
+				"C:\\projects\\anoop\\anovsiradj.github.io\\anovsiradj.github.io.sublime-project"
+			],
+			[
+				"rentalweb",
+				"C:\\works\\rental\\rental_web\\rental_web.sublime-project"
+			],
+			[
+				"wiet",
+				"C:\\projects\\anoop\\wiet\\wiet.sublime-project"
+			],
+			[
+				"wareho",
+				"C:\\projects\\jolie_warehouse\\jolie_warehouse.sublime-project"
+			],
+			[
+				"sigap",
+				"C:\\projects\\SIGAP_KLHK\\sigap.sublime-project"
+			],
+			[
+				"jeem",
+				"C:\\projects\\jmc\\jeemce.sublime-project"
+			],
+			[
+				"kediri",
+				"C:\\projects\\kedirikota\\kedirikota_satupeta.sublime-project"
+			],
+			[
+				"wasp",
+				"C:\\waap\\wasp.sublime-project"
+			],
+			[
+				"pengaduan",
+				"C:\\projects\\intanbanjar\\intanbanjar_pengaduan.sublime-project"
+			],
+			[
+				"pasaang",
+				"C:\\projects\\intanbanjar\\intanbanjar_pasangbaru.sublime-project"
+			],
+			[
+				"jmc",
+				"C:\\projects\\jmc\\jeemce.sublime-project"
+			],
+			[
+				"rental",
+				"C:\\projects\\rental.sublime-project"
+			],
+			[
+				"ssh",
+				"C:\\projects\\anoop\\php-skit\\php-skit.sublime-project"
+			],
+			[
+				"pasangba",
+				"C:\\projects\\intanbanjar\\intanbanjar_pasangbaru.sublime-project"
+			],
+			[
+				"pasang",
+				"C:\\projects\\intanbanjar\\intanbanjar_pasangbaru.sublime-workspace"
+			],
+			[
+				"renta",
+				"C:\\projects\\rental.sublime-project"
+			],
+			[
+				"inven",
+				"C:\\projects\\intanbanjar_inventori.sublime-project"
+			],
+			[
+				"warehoi",
+				"C:\\projects\\jolie_warehouse\\jolie_warehouse.sublime-project"
+			],
+			[
+				"kt",
+				"C:\\projects\\kt_ifm_gtid_web\\kt_ifm_gtid_web.sublime-project"
+			],
+			[
+				"joli",
+				"C:\\projects\\jolie_warehouse\\jolie_warehouse.sublime-project"
+			],
+			[
+				"la",
+				"C:\\projects\\laravel-monorepo\\laravel-monorepo.sublime-project"
+			],
+			[
+				"",
+				"C:\\projects\\kt_ifm_gtid_web\\kt_ifm_gtid_web.sublime-project"
+			],
+			[
+				"ktif",
+				"C:\\projects\\kt_ifm_gtid_web\\kt_ifm_gtid_web.sublime-project"
+			],
+			[
+				"tbmd",
+				"C:\\projects\\tbmd_ci4\\tbmd_ci4.sublime-project"
+			],
+			[
+				"ebmd",
+				"C:\\projects\\tbmd_ci4\\tbmd_ci4.sublime-project"
+			]
+		],
+		"width": 378.0
+	},
+	"select_symbol":
+	{
+		"height": 281.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

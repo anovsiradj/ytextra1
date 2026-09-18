@@ -1,0 +1,17 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:jquery@*": "4.0.0",
+    "npm:jquery@4": "4.0.0"
+  },
+  "npm": {
+    "jquery@4.0.0": {
+      "integrity": "sha512-TXCHVR3Lb6TZdtw1l3RTLf8RBWVGexdxL6AC8/e0xZKEpBflBsjh9/8LXw+dkNFuOyW9B7iB3O1sP7hS0Kiacg=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:jquery@4"
+    ]
+  }
+}
